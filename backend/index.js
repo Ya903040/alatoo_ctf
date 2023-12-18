@@ -11,7 +11,7 @@ const competitions = require('./app/competitions');
 const banners = require('./app/banners');
 
 const app = express();
-const port = 8000;
+const port = 5050;
 
 mongoose.set('strictQuery', false);
 app.use(express.static('public'));
